@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 model_file_url = 'https://www.googleapis.com/drive/v3/files/149IM0MB4kUspfNKM1hppCOnMhUpFAlI7?alt=media&key=AIzaSyDslT5v2lq1ujXkrL1s_o8TUuggrL7wfwM'
-model_file_name = 'model'
+model_file_name = '149IM0MB4kUspfNKM1hppCOnMhUpFAlI7'
 classes = ["blackEyedSusan", "boneset", "bunchberryDogwood", "butterflyWeed", "canadianThistle", "cardinalFlower", "christmasFern", "denseBlazingStar", "easternJoePyeWeed", "easternTeaberry", "falseSunflower", "foamFlower", "goldenTickseed", "greatBlueLobelia", "greyGoldenrod", "newEnglandAster", "pinkTickseed", "purpleConeflower", "royalFern", "trumpetHoneysuckle", "wildGeranium", "bearberry", "highbushBlueberry", "hollyLeavedBarberry", "inkberryHolly", "mountainLaurel", "northernBayberry", "northernSpicebush", "pastureRose", "redChokeberry", "redStemDogwood", "southernArrowwood", "summersweet", "virginiaSweetspire", "winterberry", "japaneseKnotweed", "eurasianWatermilfoil", "japaneseStiltgrass", "garlicMustard", "mile-a-minute", "japaneseBarberry", "multifloraRose", "japaneseHoneysuckle", "purpleLoosestrife"]
 path = Path(__file__).parent
 
